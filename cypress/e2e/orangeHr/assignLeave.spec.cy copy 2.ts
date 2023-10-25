@@ -4,8 +4,8 @@ import GenericHepler from "../../support/helpers/genericFunctions";
 
 const loginObj: login = new login();
 const empObj: employee = new employee();
-let firstName = "";
-let userId = "";
+let firstName = "alaa " + GenericHepler.GenericRandomString();
+let userId = "100" + GenericHepler.GenericRandomString();
 let empNumber = "";
 
 describe("add employee VIA API", () => {
