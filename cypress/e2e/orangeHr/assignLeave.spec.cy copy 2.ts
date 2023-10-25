@@ -8,7 +8,7 @@ let firstName = "alaa " + GenericHepler.GenericRandomString();
 let userId = "100" + GenericHepler.GenericRandomString();
 let empNumber = "";
 
-describe("add employee VIA API", () => {
+describe("add employee via API", () => {
   beforeEach(() => {
     cy.intercept("/web/index.php/dashboard/index").as("loginpage");
     cy.visit("https://opensource-demo.orangehrmlive.com");
